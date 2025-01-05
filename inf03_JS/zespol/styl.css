@@ -1,0 +1,69 @@
+*{
+  font-family: 'Bookman Old Style', Serif;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.glowny{
+  display: flex;
+}
+
+header {
+  display: flex;
+}
+
+header section {
+  background-color: DarkCyan;
+  color: white;
+  width: 50%;
+  height: 100px;
+  letter-spacing: 15px;
+}
+
+footer{
+  background-color: darkcyan;
+  color: white;
+}
+
+.karta{
+  background-color: azure;
+  width: 30%;
+  margin: 1%;
+  box-shadow: 4px 4px 8px dimgray;
+}
+
+.karta img{
+  width: 100%;
+}
+
+p, h2, h3{
+  margin: 15px;
+}
+
+a{
+  color: white;
+}
+
+h5{
+  background-color: teal;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+h5:hover{
+  color: lightseagreen;
+}
+
+.cytaty{
+  text-align: center;
+  padding: 30px 0;
+  font-style: italic;
+}
+
+#cytat2, #cytat3{
+  display: none;
+}

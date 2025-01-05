@@ -1,0 +1,4 @@
+zapytanie 1: SELECT `nazwaPliku`, `podpis` FROM `zdjecia` ORDER BY `podpis` ASC;
+zapytanie 2: SELECT `dataWyjazdu`, `cel` FROM `wycieczki` WHERE `dostepna` = 0;
+zapytanie 3: 
+zapytanie 4: DROP TANLE użytkownik;
